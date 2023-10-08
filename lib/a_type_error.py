@@ -1,3 +1,7 @@
 #!/usr/bin/env python3
 
-wrong_type = 'abc' + 123
+str_variable = 'abc'
+int_variable = 123
+result = str_variable + str(int_variable)
+
+print(result)
